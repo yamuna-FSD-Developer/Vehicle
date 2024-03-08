@@ -1,4 +1,4 @@
-var fake = fetch("http://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMake/merc?format=json");
+var fake = fetch("https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMake/merc?format=json");
 fake
 .then((res) => res.json())
 .then((data) => {
